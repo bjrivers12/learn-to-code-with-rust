@@ -1,0 +1,16 @@
+{
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.smartcase": true,
+    "vim.incsearch": true,
+    "vim.handleKeys": {
+        "<C-c>": false,
+        "<C-v>": false
+    },
+    "editor.lineNumbers": "relative",
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "smooth",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true
+}
