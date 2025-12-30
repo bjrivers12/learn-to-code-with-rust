@@ -1,7 +1,5 @@
 fn main() {
-    let apples = 50;
-    let oranges = 14 + 6;
-    let fruits = apples + oranges;
-
-    println!("This year my garden has {} apples.", apples - 10)
+    let eight_bit: i16 = -222;
+    let some_value = 20i8;
 }
+
