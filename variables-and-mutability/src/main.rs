@@ -1,5 +1,8 @@
 fn main() {
-    let eight_bit: i16 = -222;
-    let some_value = 20i8;
+    let mut gym_reps: i32 = 10;
+    println!("I plan to do {gym_reps} reps");
+
+    gym_reps = 15;
+    println!("I now plan to do {gym_reps} reps");
 }
 
