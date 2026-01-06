@@ -1,6 +1,15 @@
 fn main() {
- let grams_of_protein = "100.345";
- let grams_of_protein = 100.345;
- let mut grams_of_protein = 100;
+    let coffee_price = 5.99;
+    {
+        //this is not shadowing because it is a different scope
+        let coffee_price = 6.99;
+        println!("The price is {coffee_price}");
+        // println!("The price is {coffee_price}");
+        let cookie_price = 1.99;
+        println!("The {cookie_price}");
+    }
+    println!("The price is {coffee_price}");
+// println!("The {cookie_price}");
+
 }
 
