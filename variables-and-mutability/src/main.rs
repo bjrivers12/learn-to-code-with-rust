@@ -1,8 +1,6 @@
 fn main() {
-    let mut gym_reps: i32 = 10;
-    println!("I plan to do {gym_reps} reps");
-
-    gym_reps = 15;
-    println!("I now plan to do {gym_reps} reps");
+ let grams_of_protein = "100.345";
+ let grams_of_protein = 100.345;
+ let mut grams_of_protein = 100;
 }
 
